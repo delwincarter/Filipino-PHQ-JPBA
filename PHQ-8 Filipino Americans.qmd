@@ -61,7 +61,7 @@ knitr:
     fig.align: "center"
 ---
 
-> To render to PDF use this code
+> To render to PDF use this code (this will be removed)
 >
 > quarto::quarto_render(
 >
@@ -3715,11 +3715,6 @@ knitr::include_graphics("tables/table8_phq_related_correlations.png")
 Analyses were reproduced using R (version 4.5.1; R Core Team, 2025), lavaan (version 0.6-20; Rosseel, 2012), RStudio Pro (2025), and Quarto (version 1.7; 2024). Rendering this Quarto document regenerates all models, tables, and figures shown in the supplement.
 
 ### References for Software and Analytic FrameworkReferences for Software and Analytic Framework
-
-Rosseel, Y. (2012). lavaan: An R package for structural equation modeling. *Journal of Statistical Software, 48*(2), 1–36.\
-R Core Team. (2025). *R: A language and environment for statistical computing.*\
-Posit Software, PBC. (2025). *RStudio Pro.*\
-Quarto Project. (2024). *Quarto Documentation and Authoring System.*
 
 Rosseel, Y. (2012). lavaan: An R package for structural equation modeling. *Journal of Statistical Software, 48*(2), 1–36.\
 R Core Team. (2025). *R: A language and environment for statistical computing.*\
