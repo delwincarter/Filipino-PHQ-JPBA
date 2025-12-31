@@ -1,0 +1,17 @@
+# Exclude analytic data
+data/*
+
+# But keep the placeholder access note
+!data/README_DATA_ACCESS.md
+
+# Exclude manuscript & submission materials
+JPBA Submission Materials/*
+*.docx
+
+# RStudio noise
+.Rhistory
+.RData
+.Ruserdata
+
+# Quarto cache if present
+*_cache/
