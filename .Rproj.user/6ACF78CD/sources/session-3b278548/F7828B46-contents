@@ -63,11 +63,11 @@ knitr:
 
 > To render to PDF use this code (this will be removed)
 >
-> quarto::quarto_render(
->
-> "PHQ-8 Filipino Americans.qmd",
->
-> output_format = "pdf")
+> > quarto::quarto_render(
+> >
+> > "PHQ-8 Filipino Americans.qmd",
+> >
+> > output_format = "pdf")
 
 The complete Quarto workflow and rendered HTML supplement are archived in a Git repository at GitHub (<https://github.com/delwincarter/Filipino-PHQ-JPBA>) and will be made public upon publication of the manuscript.
 
@@ -1502,7 +1502,6 @@ In this specification, the **cognitive-affective** factor is indicated by item
 #| message: false
 #| warning: false
 
-
 # -------------------------------------------------------------------
 # Diagram code for Two-Factor Model A
 # -------------------------------------------------------------------
@@ -1510,7 +1509,7 @@ In this specification, the **cognitive-affective** factor is indicated by item
 diagram_code_twofactor_A <- "
 digraph {
 
-  label = 'Two Factor Model A of the PHQ-8 (Cognitive-Affective vs. Somatic factors)'
+  label = 'Two Factor Model A of the PHQ-8 (Cognitive–Affective vs. Somatic factors)'
   graph [ranksep = .3]
 
   # Observed indicators
@@ -1528,24 +1527,24 @@ digraph {
 
   # Latent factors
   node [shape = circle]
-  Cognitive-Affective;
+  Affective [label = 'Cognitive–Affective'];
   Somatic;
 
   # Factor loadings
   edge [minlen = 3.5]
 
-  Cognitive-Affective -> phq1
-  Cognitive-Affective -> phq2
-  Cognitive-Affective -> phq6
-  Cognitive-Affective -> phq7
-  Cognitive-Affective -> phq8
+  Affective -> phq1
+  Affective -> phq2
+  Affective -> phq6
+  Affective -> phq7
+  Affective -> phq8
 
   Somatic -> phq3
   Somatic -> phq4
   Somatic -> phq5
 
   # Correlated factors
-  Cognitive-Affective -> Somatic [dir = both]
+  Affective -> Somatic [dir = both]
 }
 "
 
@@ -1581,7 +1580,6 @@ if (knitr::is_html_output()) {
   # Fallback for other formats
   twofactor_A_graph
 }
-
 
 ```
 
@@ -2178,15 +2176,15 @@ digraph {
 
   # Latent factors
   node [shape = circle]
-  Cognitive-Affective;
+  Affective [label = 'Cognitive–Affective'];
   Somatic;
 
   # Factor loadings
   edge [minlen = 3.5]
 
-  Cognitive-Affective -> phq1
-  Cognitive-Affective -> phq2
-  Cognitive-Affective -> phq6
+  Affective -> phq1
+  Affective -> phq2
+  Affective -> phq6
 
   Somatic -> phq3
   Somatic -> phq4
@@ -2195,7 +2193,7 @@ digraph {
   Somatic -> phq8
 
   # Correlated factors
-  Cognitive-Affective -> Somatic [dir = both]
+  Affective -> Somatic [dir = both]
 }
 "
 
