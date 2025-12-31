@@ -1,0 +1,8 @@
+"0",""
+"0","gt::gtsave("
+"0","  data     = CFA_summary_table,"
+"0","  filename = ""table4_onefactor_cfa_fit.png"","
+"0","  path     = ""tables"","
+"0","  zoom     = 2"
+"0",")"
+"0",""

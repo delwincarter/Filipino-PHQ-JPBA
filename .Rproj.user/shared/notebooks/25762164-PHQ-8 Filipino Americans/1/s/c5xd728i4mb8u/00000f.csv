@@ -1,0 +1,8 @@
+"0","#| label: cfa-twofactor-A-factor-correlations-html"
+"0","#| echo: true"
+"0","#| message: false"
+"0","#| warning: false"
+"0","#| eval: !expr knitr::is_html_output()"
+"0",""
+"0","# HTML: show the gt table in the supplement"
+"0","gt_cfa_2A_corr"

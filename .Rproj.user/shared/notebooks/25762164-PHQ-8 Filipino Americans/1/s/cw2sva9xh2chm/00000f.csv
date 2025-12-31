@@ -1,0 +1,7 @@
+"0","#| label: onefactor-loadings-html"
+"0","#| echo: true"
+"0","#| message: false"
+"0","#| warning: false"
+"0","#| eval: !expr knitr::is_html_output()"
+"0",""
+"0","one_factor_table_gt"

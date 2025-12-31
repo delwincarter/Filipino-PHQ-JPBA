@@ -1,0 +1,8 @@
+"0",""
+"0","  gt::gtsave("
+"0","    data     = one_factor_table_gt,"
+"0","    filename = ""Table5_6_OneFactor_Loadings_Omega.png"","
+"0","    path     = ""tables"","
+"0","    zoom     = 2"
+"0","  )"
+"0",""

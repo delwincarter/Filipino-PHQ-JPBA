@@ -1,0 +1,7 @@
+"0",""
+"0","  gt::gtsave("
+"0","    data     = sample_table_gt,"
+"0","    filename = ""Table1_Demographic_Characteristics.png"","
+"0","    path     = ""tables"","
+"0","    zoom     = 2"
+"0","  )"
