@@ -53,12 +53,13 @@ All numerical values reported in the manuscript tables—including fit indices, 
 
 ```text
 Filipino-PHQ-JPBA/
-├── README.md
-├── index.html                              # Interactive HTML workflow
-├── PHQ-8-Filipino-American.pdf             # Journal-formatted PDF supplement
-├── PHQ-8 Filipino American.qmd             # Executable Quarto source
-├── tables/                                 # Tables generated from gt
-├── figures/                                # CFA diagrams and other figures
 ├── data/
-│   ├── phq_final_manuscript.sav            # De-identified analytic dataset
-└── Filipino PHQ JPBA.Rproj                 # RStudio project file
+│   └── phq_final_manuscript.sav
+├── figures/
+├── tables/
+├── .gitignore
+├── Filipino PHQ JPBA.Rproj
+├── PHQ-8 Filipino American.qmd
+├── PHQ-8-Filipino-American.pdf
+├── README.md
+└── index.html
