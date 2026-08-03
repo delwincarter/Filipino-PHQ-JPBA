@@ -1,8 +1,0 @@
-"0",""
-"0","gt::gtsave("
-"0","  data     = gt_cfa_2A_summary,"
-"0","  filename = ""table4_twofactorA_cfa_fit.png"","
-"0","  path     = ""tables"","
-"0","  zoom     = 2"
-"0",")"
-"0",""

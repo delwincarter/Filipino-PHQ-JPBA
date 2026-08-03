@@ -1,8 +1,0 @@
-"0","#| label: cfa-twofactor-B-loadings-table-html"
-"0","#| echo: true"
-"0","#| message: false"
-"0","#| warning: false"
-"0","#| eval: !expr knitr::is_html_output()"
-"0",""
-"0","# HTML: show loadings/omega table inline"
-"0","gt_cfa_2B_loadings"

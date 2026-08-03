@@ -1,8 +1,0 @@
-"0","#| label: phq-related-correlations-table-html"
-"0","#| echo: true"
-"0","#| message: false"
-"0","#| warning: false"
-"0","#| eval: !expr knitr::is_html_output()"
-"0",""
-"0","# Render correlation table in HTML"
-"0","gt_phq_corr"
