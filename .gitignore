@@ -1,8 +1,6 @@
-# Exclude analytic data
-data/*
 
-# But keep the placeholder access note
-!data/README_DATA_ACCESS.md
+
+
 
 # Exclude manuscript & submission materials
 JPBA Submission Materials/*
@@ -12,6 +10,7 @@ JPBA Submission Materials/*
 .Rhistory
 .RData
 .Ruserdata
+.Rproj.user
 
 # Quarto cache if present
 *_cache/
